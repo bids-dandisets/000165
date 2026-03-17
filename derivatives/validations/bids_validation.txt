@@ -5,11 +5,11 @@ The use of license name abbreviations is RECOMMENDED for specifying a license
 (see [Licenses](SPEC_ROOT/appendices/licenses.md)).
 The corresponding full license text MAY be specified in an additional
 `LICENSE` file.
- - rules.dataset_metadata.dataset_description
+
 
 		GeneratedBy
 		/dataset_description.json - Field description: Used to specify provenance of the dataset.
- - rules.dataset_metadata.dataset_description
+
 
 		SourceDatasets
 		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
@@ -18,7 +18,7 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
- - rules.dataset_metadata.dataset_description
+
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -28,116 +28,22 @@ will make DOI registration from dataset metadata impossible.
 
 		Authors
 		/dataset_description.json - Field description: List of individuals who contributed to the creation/curation of the dataset.
- - rules.dataset_metadata.dataset_authors
+
 
 	Please visit https://neurostars.org/search?q=NO_AUTHORS for existing conversations about this issue.
 
 	[ERROR] JSON_KEY_REQUIRED A JSON flle is missing a key listed as required.
 		Name
 		/dataset_description.json - Field description: Name of the dataset.
- - rules.dataset_metadata.dataset_description
+
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_REQUIRED for existing conversations about this issue.
 
 	[ERROR] NOT_INCLUDED Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a ".bidsignore" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.
 		/sub-Bones/ses-Bones01_HomeCage/
 		/sub-Bones/ses-Bones03_HomeCage/
-		/sub-Bones/ses-Bones06_HomeCage/
-		/sub-Bones/ses-Bones07_HomeCage/
-		/sub-Bones/ses-Bones02_HomeCage/
-		/sub-Bones/ses-Bones05_HomeCage/
-		/sub-Bones/ses-Bones04_HomeCage/
-		/sub-Cardamom/ses-Cardamom05_LinearTrack/
-		/sub-Cardamom/ses-Cardamom02_LinearTrack/
-		/sub-Cardamom/ses-Cardamom05_HomeCage/
-		/sub-Cardamom/ses-Cardamom03_HomeCage/
-		/sub-Cardamom/ses-Cardamom04_LinearTrack/
-		/sub-Cardamom/ses-Cardamom04_HomeCage/
-		/sub-Cardamom/ses-Cardamom01_LinearTrack/
-		/sub-Cardamom/ses-Cardamom06_HomeCage/
-		/sub-Cardamom/ses-Cardamom01_HomeCage/
-		/sub-Cardamom/ses-Cardamom06_LinearTrack/
-		/sub-Cardamom/ses-Cardamom02_HomeCage/
-		/sub-Cardamom/ses-Cardamom03_LinearTrack/
-		/sub-Beverly/ses-Beverly12_HomeCage/
-		/sub-Beverly/ses-Beverly10_HomeCage/
-		/sub-Beverly/ses-Beverly15_HomeCage/
-		/sub-Beverly/ses-Beverly16_HomeCage/
-		/sub-Beverly/ses-Beverly08_HomeCage/
-		/sub-Beverly/ses-Beverly09_HomeCage/
-		/sub-Beverly/ses-Beverly17_HomeCage/
-		/sub-Caraway/ses-Caraway05_LinearTrack/
-		/sub-Caraway/ses-Caraway04_LinearTrack/
-		/sub-Caraway/ses-Caraway03_LinearTrack/
-		/sub-Caraway/ses-Caraway03_HomeCage/
-		/sub-Caraway/ses-Caraway04_HomeCage/
-		/sub-Caraway/ses-Caraway06_LinearTrack/
-		/sub-Caraway/ses-Caraway05_HomeCage/
-		/sub-Caraway/ses-Caraway02_LinearTrack/
-		/sub-Caraway/ses-Caraway06_HomeCage/
-		/sub-Caraway/ses-Caraway02_HomeCage/
-		/sub-Caraway/ses-Caraway01_LinearTrack/
-		/sub-Aphid/ses-Aphid02_HomeCage/
-		/sub-Aphid/ses-Aphid04_HomeCage/
-		/sub-Aphid/ses-Aphid07_HomeCage/
-		/sub-Aphid/ses-Aphid06_HomeCage/
-		/sub-Aphid/ses-Aphid01_HomeCage/
-		/sub-Aphid/ses-Aphid03_HomeCage/
-		/sub-Aphid/ses-Aphid05_HomeCage/
-		/sub-Basil/ses-Basil06_HomeCage/
-		/sub-Basil/ses-Basil04_LinearTrack/
-		/sub-Basil/ses-Basil01_HomeCage/
-		/sub-Basil/ses-Basil01_LinearTrack/
-		/sub-Basil/ses-Basil05_LinearTrack/
-		/sub-Basil/ses-Basil05_HomeCage/
-		/sub-Basil/ses-Basil06_LinearTrack/
-		/sub-Basil/ses-Basil02_HomeCage/
-		/sub-Basil/ses-Basil03_HomeCage/
-		/sub-Basil/ses-Basil03_LinearTrack/
-		/sub-Basil/ses-Basil02_LinearTrack/
-		/sub-Basil/ses-Basil04_HomeCage/
-		/sub-Bashir/ses-Bashir04_HomeCage/
-		/sub-Bashir/ses-Bashir01_HomeCage/
-		/sub-Bashir/ses-Bashir06_HomeCage/
-		/sub-Bashir/ses-Bashir03_HomeCage/
-		/sub-Bashir/ses-Bashir02_HomeCage/
-		/sub-Bashir/ses-Bashir05_HomeCage/
-		/sub-Bashir/ses-Bashir07_HomeCage/
-		/sub-Adobo/ses-Adobo06_LinearTrack/
-		/sub-Adobo/ses-Adobo03_LinearTrack/
-		/sub-Adobo/ses-Adobo01_HomeCage/
-		/sub-Adobo/ses-Adobo02_LinearTrack/
-		/sub-Adobo/ses-Adobo06_HomeCage/
-		/sub-Adobo/ses-Adobo04_HomeCage/
-		/sub-Adobo/ses-Adobo04_LinearTrack/
-		/sub-Adobo/ses-Adobo02_HomeCage/
-		/sub-Adobo/ses-Adobo05_HomeCage/
-		/sub-Adobo/ses-Adobo05_LinearTrack/
-		/sub-Adobo/ses-Adobo03_HomeCage/
-		/sub-Baharat/ses-Baharat03_LinearTrack/
-		/sub-Baharat/ses-Baharat02_HomeCage/
-		/sub-Baharat/ses-Baharat02_LinearTrack/
-		/sub-Baharat/ses-Baharat06_LinearTrack/
-		/sub-Baharat/ses-Baharat01_HomeCage/
-		/sub-Baharat/ses-Baharat03_HomeCage/
-		/sub-Baharat/ses-Baharat05_LinearTrack/
-		/sub-Baharat/ses-Baharat06_HomeCage/
-		/sub-Baharat/ses-Baharat04_HomeCage/
-		/sub-Baharat/ses-Baharat01_LinearTrack/
-		/sub-Baharat/ses-Baharat05_HomeCage/
-		/sub-Baharat/ses-Baharat04_LinearTrack/
-		/sub-Anise/ses-Anise03_LinearTrack/
-		/sub-Anise/ses-Anise03_HomeCage/
-		/sub-Anise/ses-Anise01_LinearTrack/
-		/sub-Anise/ses-Anise05_HomeCage/
-		/sub-Anise/ses-Anise02_LinearTrack/
-		/sub-Anise/ses-Anise01_HomeCage/
-		/sub-Anise/ses-Anise02_HomeCage/
-		/sub-Anise/ses-Anise06_LinearTrack/
-		/sub-Anise/ses-Anise04_HomeCage/
-		/sub-Anise/ses-Anise06_HomeCage/
-		/sub-Anise/ses-Anise04_LinearTrack/
-		/sub-Anise/ses-Anise05_LinearTrack/
+
+		96 more files with the same issue
 
 	Please visit https://neurostars.org/search?q=NOT_INCLUDED for existing conversations about this issue.
 
