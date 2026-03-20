@@ -1,7 +1,7 @@
 {
     "InstitutionName": "Gladstone Institutes and University of California, San Francisco",
     "PowerLineFrequency": "n/a",
-    "SamplingFrequency": "n/a",
+    "SamplingFrequency": -1.0,
     "SoftwareFilters": "n/a",
     "HardwareFilters": "n/a"
 }
