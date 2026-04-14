@@ -1,4 +1,31 @@
 {
+    "Name": "Aery Jones et al (2021) Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures of Internal and External Drive to CA1",
     "BIDSVersion": "1.10",
-    "HEDVersion": "8.3.0"
+    "HEDVersion": "8.3.0",
+    "Description": "The experiment consisted of three cohorts of PVCre, SSTCre, and PVCre/SSTCre mice injected with either AAV5-hSyn-DIO-hM4D(Gi)-mCherry (hM4D) or AAV5-hSyn-DIO-mCherry (empty vector) in DG and CA3, then injected with vehicle or CNO prior to recordings. Recordings from all layers of CA1, CA3, and DG were taken during home cage rest and linear track movement. Data are described in Aery Jones et al, 2021, bioRxiv: \"Dentate Gyrus and CA3 GABAergic Interneurons Bidirectionally Modulate Signatures of Internal and External Drive to CA1\". For more information about this data, please contact Emily Aery Jones, Yadong Huang, or Loren Frank.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Aery Jones, Emily",
+        "Rao, Antara",
+        "Zilberter, Misha",
+        "Djukic, Biljana",
+        "Gillespie, Anna K.",
+        "Koutsodendris, Nicole",
+        "Nelson, Maxine",
+        "Yoon, Seo Yeon",
+        "Huang, Ky",
+        "Yuan, Heidi",
+        "Gill, Theodore M.",
+        "Huang, Yadong",
+        "Frank, Loren M."
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.12.1.dev6+gf29fa0039",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
 }
