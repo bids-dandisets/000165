@@ -1,0 +1,1 @@
+{"sanitization_config":{"sub_labels":true,"ses_labels":true},"sanitization_file_path":"/data/dandi/bids-dandisets/work/000165/.nwb2bids/datetime-20260421025524_sanitization.txt","original_participant_id":"Cardamom","original_session_id":"Cardamom06_LinearTrack","sanitized_participant_id":"Cardamom","sanitized_session_id":"Cardamom06+LinearTrack"}
